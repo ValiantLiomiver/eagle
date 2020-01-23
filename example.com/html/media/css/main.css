@@ -1,0 +1,449 @@
+/*@font-face {
+  font-family: 'Kite One';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Kite One'), local('KiteOne-Regular'), url('/media/css/kite_one.woff') format('woff');
+}*/
+/*@font-face {
+  font-family: 'Orienta';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Orienta'), local('Orienta-Regular'), url('/media/css/orienta.woff') format('woff');
+}*/
+@font-face {
+  font-family: 'Lucida Bright';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Lucida Bright'), local('LucidaBright-Regular'), url('/media/css/LBRITEDI.woff') format('woff');
+}
+@page port {size: portrait;}
+@page land {size: landscape;}
+
+.portrait {page: port;}
+
+.landscape {page: land;}
+
+body{
+	background-image:url('/media/img/background2.jpg');
+	border:0px;
+	margin:0px;
+	padding:0px;
+	font-family:Arial;
+}
+
+a img{
+	border:0px;
+}
+
+.main{
+	/*background-color:#FFFFFF;*/
+	/*background-image:url('/media/img/background.jpg');*/
+	background-repeat:repeat-x;
+}
+.main_content{
+	vertical-align:top;
+}
+.footer{
+	/*background-color:#FFD1A4;*/
+	background-color:transparent;
+	font-family:Arial;
+	font-weight:bold;
+	color:#400000;
+	font-size:12px;
+}
+.footer a{
+	color:#B30000;
+}
+
+.contenuto{
+	/*background-color:#FFD1A4;*/
+	background-color:transparent;
+}
+
+.pointer{
+	background-image:url('/media/img/pointer.png');
+	background-repeat:no-repeat;
+	width:64px;
+	height:55px;
+	cursor: pointer;
+	float:left;
+}
+
+.pointer a{
+	border:0px;
+	text-decoration:none;
+	width:64px;
+	height:55px;
+}
+
+.pointer:hover{
+	background-image:url('/media/img/pointer_hover.png');
+	background-repeat:no-repeat;
+	width:64px;
+	height:55px;
+	cursor: pointer;
+}
+.pointer2{
+	/*background-image:url('/media/img/pointer2.png');
+	background-repeat:no-repeat;*/
+	width:32px;
+	height:28px;
+	cursor: pointer;
+	float:left;
+}
+
+.pointer2_hover{
+	background-image:url('/media/img/pointer2.png');
+	background-repeat:no-repeat;
+	width:32px;
+	height:28px;
+	cursor: pointer;
+	float:left;
+}
+
+.pointer2 a{
+	border:0px;
+	text-decoration:none;
+	width:32px;
+	height:28px;
+}
+
+.pointer2 a img{
+	border:0px;
+	text-decoration:none;
+	width:32px;
+	height:28px;
+}
+
+.pointer2:hover{
+	background-image:url('/media/img/pointer_hover2.png');
+	background-repeat:no-repeat;
+	width:32px;
+	height:28px;
+	cursor: pointer;
+}
+#slideshow {
+	/*border: 1px solid #000;
+	overflow: hidden;
+	margin: 50px auto 10px;*/
+	position: relative;
+	min-width: 1024px;
+	width: 1024px;
+	/*width: 780px;
+	height: 500px;
+	margin:0px;*/
+}
+
+#slideshow img {
+	display: none;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+.orologio{
+	
+}
+
+table.orologio tr td img{
+	width:29px;
+	height:40.5px;
+}
+
+.slogan{
+	padding:16px;
+	font-size:18px;
+	font-style:italic;
+	font-weight:bold;
+	color:#4A0D0D;
+	text-align:center;
+}
+#galleria_home{
+	background-image:url('/media/img/cornice.png');
+	background-repeat: no-repeat;
+	background-position:20px 0px;
+	/*border: 1px solid #000;
+	overflow: hidden;
+	margin: 100px auto 20px;
+	position: relative;*/
+	width: 900px;
+	height: 600px;
+	padding-top:31px;
+}
+
+div.postit{
+	background-image:url('/media/img/postit.png');
+	background-repeat:no-repeat;
+	width:135px;
+	height:123px;
+	padding:30px 19px;
+	font-family: 'Lucida Bright';
+	float: left;
+}
+
+#dettagli_evento{
+	width:400px;
+	height:255px;
+}
+
+.calendario{
+	font-family: 'Lucida Bright';
+}
+
+.calendario tr td a{
+	text-decoration:none;
+}
+
+.calendario tr td a.festivo{
+	color:#FF0000;
+}
+
+.calendario tr td a.ordinario{
+	color:#000000;
+}
+
+.calendario tr td.current{
+	background-color:#400000;
+	color:#FFD1A4;
+}
+
+.calendario  tr td.current a.festivo{
+	color:#FFD1A4;
+}
+
+.calendario  tr td.current a.ordinario{
+	color:#FFD1A4;
+}
+
+div.agenda_eventi{
+	padding:15px 30px 20px 46px;
+	background-image:url('/media/img/agenda.png?1234');
+	font-family: 'Lucida Bright';
+	font-size: 14px;
+	width:315px;
+	height:220px;
+}
+
+div.alert{
+	background-color:#CC2A2A;
+	text-align: center;
+	font-family: Arial;
+	margin: 10px;
+	padding: 10px;
+	border: 2px dotted #990000;
+}
+
+.tabella_elenco{
+	background-color:#FFFFFF;
+	font-family: Arial;
+	font-size:13px;
+}
+
+.tabella_elenco tr td.intestazione{
+	background-color:#874546;
+	font-weight:bold;
+	font-size:13px;
+}
+
+.tabella_elenco thead{
+	background-color:#874546;
+	font-weight:bold;
+	font-size:13px;
+}
+
+.riga1{
+	background-color:#B5DCFD;
+	font-size:13px;
+}
+
+.riga1:hover{
+	background-color:#81C5FC;
+	font-size:13px;
+}
+
+.riga2{
+	background-color:#E0F4F5;
+	font-size:13px;
+}
+
+.riga2:hover{
+	background-color:#81C5FC;
+	font-size:13px;
+}
+
+.riga1 td{
+	background-color:#B5DCFD;
+	font-size:13px;
+}
+
+.riga1:hover td{
+	background-color:#81C5FC;
+	font-size:13px;
+}
+
+.riga2 td{
+	background-color:#E0F4F5;
+	font-size:13px;
+}
+
+.riga2:hover td{
+	background-color:#81C5FC;
+	font-size:13px;
+}
+
+legend{
+	font-family: Arial;
+}
+
+.tabella_form{
+	font-family: Arial;
+}
+
+.tabella_form input{
+	font-family: Arial;
+}
+
+#login_form{
+	font-family:Arial;
+}
+
+.menu_container{
+	text-align:left;
+	padding:10px;
+}
+
+.menu{
+	font-family:Arial;
+}
+
+.menu_container .menu{
+	text-align: left;
+}
+
+.menu a img{
+	border: 0px;
+}
+
+.menu a{
+	text-decoration:none;
+	color: #2E2E2E;
+}
+
+.menu a:hover{
+	text-decoration:underline;
+	color: #2E2E2E;
+}
+
+.icon{
+	margin: 0 0.3em;
+	padding: 0 !important;
+	width: 16px;
+	height: 16px;
+	background-image: url('../img/backoffice/sprites.png') !important;
+	background-repeat: no-repeat !important;
+	background-position: top left !important;
+}
+
+.menu_settings{
+	background-position: 0 -1808px !important;
+}
+
+.gestione_utenti{
+	background-position: 0 -1360px !important;
+}
+
+.gestione_menu{
+	background-position: 0 -2144px !important;
+}
+
+.gestione_livelli{
+	background-position: 0 -1152px !important;
+}
+
+.menu_home{
+	background-position: 0 -640px !important;
+}
+
+.menu_tesserati{
+	background-position: 0 -32px !important;
+}
+
+.moduli{
+	background-position: 0 -368px !important;
+}
+
+.up{
+	background-position: 0 -1743px !important;
+}
+
+.down{
+	background-position: 0 -15px !important;
+}
+
+.modifica_permessi{
+	background-position: 0 -400px !important;
+}
+
+.remove_permessi{
+	background-position: 0 -256px !important;
+}
+
+.add_permessi{
+	background-position: 0 -320px !important;
+}
+
+.print{
+	background-position: 0 -896px !important;
+}
+
+.gestione_attivita{
+	background-position: 0 -528px !important;
+}
+
+.titolo{
+	font-family:Arial;
+	font-size: 14px;
+	font-weight: bold;
+	font-style: italic;
+	text-align: center;
+	padding: 10px;
+	background-color: #AEDAED;
+	margin: 5px 0px;
+	border: 1px dotted #0009AE;
+}
+
+.ui-menu {
+	width: 150px;
+	font-size:12px;
+}
+
+.ui-menu-item a:hover{
+	text-decoration:underline;
+}
+
+.ui-menu .ui-menu-item a{
+	text-decoration:none;
+	display:block;
+	padding:2px 0.4em;
+	line-height:1.5;
+	zoom:1;
+	font-weight:normal;
+	text-decoration:none;
+}
+
+.ui-menu .ui-menu-item a:hover{
+	text-decoration:underline;
+}
+
+.permessi{
+	font-size:12px;
+}
+
+.permessi ul.no_pointer{
+	list-style: none;
+	padding: 0px;
+}
+
+#printable{
+	display: none;
+}
