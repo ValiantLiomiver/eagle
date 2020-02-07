@@ -1,3 +1,5 @@
+<img src="./eagle_logo.svg" height="250">
+
 # Getting Started
 
 ## Project Infos
